@@ -19,12 +19,10 @@ def get_requiremnets(file_path:str)->List[str]:
         return requirements
 
 setup(
-    name = 'LANGUAGE_TRANSLATOR',
-    version = '0.0.1'.
-    author = 'anupyadavdushad',
+    name='LANGUAGE_TRANSLATOR',
+    version='0.0.1',
+    author='anupyadavdushad',
     author_email='anupyadavdushad@gmail.com',
     packages=find_packages(),
     install_requires=get_requiremnets('requirements.txt')
-
-
 )
